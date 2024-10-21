@@ -1,0 +1,21 @@
+# Les fichiers `.erb` (vues) définissent l'interface utilisateur.
+<html>
+  <head>
+    <title>Créer un potin</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+  </head>
+  <body>
+    <h1>ajouter un nouveau potin</h1> <!-- En-tête principale de la page indiquant l'action à réaliser -->
+
+    <form action="/gossips/new/" method="POST"> <!-- Début du formulaire avec action définie pour envoyer les données à /gossips/new/ en POST -->
+      <label for="author">Auteur :</label> <!-- Étiquette pour le champ de saisie de l'auteur, associée à l'ID 'author' -->
+      <input type="text" id="author" name="gossip_author" /><br/> <!-- Champ de saisie pour l'auteur, avec l'attribut 'name' pour identifier les données envoyées -->
+      <label for="content">Contenu :</label> <!-- Étiquette pour le champ de saisie du contenu du potin, associée à l'ID 'content' -->
+      <input type="text" id="content" name="gossip_content" /><br/> <!-- Champ de saisie pour le contenu du potin -->
+      <input type="submit" value="Envoyer" /> <!-- Bouton pour soumettre le formulaire -->
+    </form>
+    <a href="/">Retour à la page d'accueil</a> <!-- Ajout d'un lien pour revenir à la page d'accueil -->
+  </body>
+</html>
+
+
+
