@@ -83,7 +83,6 @@ DEPENDENCIES
   colorize
   csv
   pry
-  rack
   rackup
   rerun
   rubocop

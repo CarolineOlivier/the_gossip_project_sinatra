@@ -4,8 +4,7 @@ ruby '3.2.2' # Spécifie la version de Ruby à utiliser
 
 gem 'sinatra' # Le framework web utilisé pour créer l'application
 gem 'rerun' # Permet de redémarrer automatiquement le serveur quand les fichiers sont modifiés
-gem 'csv' # Utilisé pour lire et écrire dans des fichiers CSV (gestion de la base de données)
-gem 'rack' # Middleware utilisé par Sinatra pour gérer les requêtes HTTP (déjà inclus avec Sinatra)
+gem 'csv' # Utilisé pour lire et écrire dans des fichiers CSV (gestion de la base de données)pwd
 gem 'webrick' # Serveur web par défaut utilisé par Sinatra pour servir l'application
 gem 'rackup' # Utilitaire pour démarrer un serveur Rack, nécessaire pour exécuter les applications web basées sur Sinatra
 

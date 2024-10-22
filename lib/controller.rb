@@ -6,14 +6,13 @@ Bundler.require
 $:.unshift File.expand_path("./../lib", __FILE__)
 require_relative 'gossip'
 
-
-
 class ApplicationController < Sinatra::Base
   # Route pour la page d'accueil
   get '/' do
     erb :index, locals: { gossips: Gossip.all }
   end
-
+  
+  
   # Route pour afficher le formulaire de création d'un nouveau potin
   get '/gossips/new/' do
     erb :new_gossip
@@ -27,6 +26,5 @@ class ApplicationController < Sinatra::Base
     redirect '/'
   end
 end
-
 
 
