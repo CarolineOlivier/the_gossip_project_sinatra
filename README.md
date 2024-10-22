@@ -27,12 +27,12 @@ Pour exécuter le projet localement, utilise la commande suivante :
 rackup -p 4567  
 http://localhost:4567/
 
-**Fonctionnalités**
+# Fonctionnalités
 Afficher la liste des potins : La page d'accueil affiche tous les potins partagés.
 Ajouter un nouveau potin : Les utilisateurs peuvent soumettre un nouveau potin via un formulaire.
 Stockage des potins : Les potins sont enregistrés dans un fichier CSV pour une persistance des données.
 
-**Structure du projet**
+# Structure du projet
 Voici l'architecture des dossiers :
 the_gossip_project_sinatra/
 ├── lib/
@@ -47,7 +47,7 @@ the_gossip_project_sinatra/
 ├── Gemfile                  # Liste des gemmes utilisées
 └── README.md                # Documentation du projet
 
-**Technologies utilisées**
+# Technologies utilisées
 Sinatra : Framework web léger pour Ruby
 Ruby : Langage de programmation utilisé pour l'application
 CSV : Gemme pour gérer les fichiers CSV (stockage des données)
