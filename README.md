@@ -1,4 +1,4 @@
-# The Gossip Project
+````# The Gossip Project
 
 Bienvenue dans **The Gossip Project** ! Ce projet est une application web simple développée avec [Sinatra](http://sinatrarb.com/), qui permet de partager et de consulter des potins. Il s'agit d'un exercice pour apprendre les bases du développement web en Ruby avec Sinatra.
 
@@ -63,3 +63,4 @@ Caroline Olivier - GitHub
 
 **License**
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
+```
